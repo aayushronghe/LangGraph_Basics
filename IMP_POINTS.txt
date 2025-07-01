@@ -1,1 +1,8 @@
 * Reflexion graph system takes a bit more time to process stuff and hence takes more time to generate reponse.
+
+* Drwaback of LangChain ReAct tool:
+    * We do not have the control over the agent executor which might lead to problems like:
+        -> Dependency on the prompt, wrong prompt can lead to wrong answers.
+        -> Infinite loop problem.
+        -> Give wrong output
+        -> Hallucination
