@@ -28,7 +28,7 @@ app = graph.compile()
 
 result = app.invoke(
     {
-        "input":"How many days ago was GPT 4.0 released?",
+        "input":"How many days ago was lastest ISRO rocket launch?",
         "agent_outcome": None,
         "intermediate_steps": []
     }
